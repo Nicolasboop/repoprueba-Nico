@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2? family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Oswald:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+/* no he podido cambiarle el color y tamaño al texto de la lista solo a bienes raices */
+header{
+    padding: 12px;
+    background: linear-gradient(rgba(0, 0, 0, 0.932), rgba(5, 5, 5, 0));
+    border-bottom: 10px double #0099ff;
+    word-spacing: 90px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+.bienesRaices{
+    color: rgb(34, 122, 180);
+    word-spacing: 5px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    display: flex;
+}
+
+.buenosAires{
+    word-spacing: 5px;
+}
+
+.empecemosporaqui{
+    word-spacing: 5px;
+}
+
+.sectionIndex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 30px;
+    color:antiquewhite;
+}
+
+p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    padding: 5px;
+    word-spacing: 7px;
+    color: rgb(0, 93, 175);
+    width: 500px;
+    height: auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.753));
+}
+
+.sectionEmpecemosporaqui{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    transform: translateX(300px);
+}
+
+.puno{
+    margin: 20px;
+    font-size: 20px;
+}
+
+.pdos{
+    margin: 20px;
+    font-size: 15;
+}
+
+.ptres{
+    margin: 20px;
+    font-size: 20px;
+}
+
+.pcuatro{
+    margin: 20px;
+    font-size: 15px;
+}
+
+.pcinco{
+    margin: 20px;
+    font-size: 20px;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 30px;
+    color: aliceblue;
+}
+
+img{
+    border: 15px double rgb(97, 97, 97);
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+}
+
+.imagenesCasas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 285px 285px 285px 285px 285px 285px;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+img:hover{
+    transform: scale(1.5);
+}
+
+img{
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+.imgFondo{
+    width: 300px;
+    height: 500px;
+    border: 0px;
+}
+
+footer{    
+    background-color: rgb(87, 87, 145);
+    border-top: 15px double #0099ff;
+}
+
+.tituloFooter{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: rgb(0, 93, 175);
+}
+
+.divFooter{
+    text-align: center;
+    word-spacing: 200px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+
+.telegram{
+    border: 0px;
+    width: 30px;
+    height: 30px;
+}
+
+.whatsap{
+    border: 0px;
+    width: 30px;
+    height: 30px;
+}
+
+.facebook{
+    border: 0px;
+    width: 30px;
+    height: 30px;
+}
+
+.ventas{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+fieldset{
+    text-align: center;
+    color: rgb(213, 213, 241);
+}
+
+.barriosPorteños{
+    padding-left: 5px;
+}
+
+.tipo-de-inmueble{
+    padding-left: 5px;   
+}
+
+legend{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+h3{
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+}
+
+.mainContacto{
+    display: flex;
+    flex-direction: row;
+}
+    
+.pepe{
+    margin: 20px;
+    padding: 200px; 
+    width: 800px;
+    height: 600px;
+    color: rgb(41, 158, 139);
+}
+
+
+.h3-1{
+    padding-left: px;
+    word-spacing: 8px;
+    letter-spacing: 3px;
+}
+
+.conociste{
+    padding-left: 50px;
+}
+
+.saber{
+    padding-left: 50px;
+    word-spacing: 8px;
+    letter-spacing: 3px;
+}
+
+.boton {
+    background-color: #38a87a;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}  
+
+caption{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    color: aliceblue;
+}
+
+.botonUnito{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+.mainVentasyalquileres{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
+.grilla{
+    width: auto;
+    height: auto;
+}
+
+.border{
+    border: 5px solid rgb(34, 207, 193);
+}
+
+header{
+    grid-area: header;
+}
+
+.productos{
+    grid-area: productos;
+}
+
+.servicios{
+    grid-area: servicios;
+}
+
+nav{
+    grid-area: nav;
+}
+
+aside{
+    grid-area: publicidad;
+}
+
+footer{
+    grid-area: footer;
+}
+
+.grilla{
+    display: grid;
+    grid-template-areas: 
+    "nav header    header"
+    "nav productos publicidad"
+    "nav servicios publicidad"
+    "nav footer    footer";
+    grid-template-columns: auto;
+    grid-template-rows: 100px auto auto 100px;
+    gap: 3px;
+}
+
+@media screen and (max width: 768px) {
+    grilla{
+        display: grid;
+        grid-template-areas: 
+        "nav header    header"
+        "nav productos publicidad"
+        "nav servicios publicidad"
+        "nav footer    footer";
+        grid-template-columns: 20% auto 15%;
+        grid-template-rows: auto;
+        gap: 1px;
+    }
+    
+}
+
+.carrus{
+    display: grid;
+    grid-template-columns: 450px;
+    grid-template-rows: 450px;
+    justify-content: center
+
+}
+
+.carousel-item{
+    margin:auto;
+}
+
+.d-block{
+    width: 300px;
+    height: 300px;
+    border: 0px;
+}
